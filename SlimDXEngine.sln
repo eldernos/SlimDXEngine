@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimDXEngine.Sample", "SlimDXEngine.Sample\SlimDXEngine.Sample.csproj", "{2C8C5080-55EB-4250-BF2C-8C690695B44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimDXEngine.Library", "SlimDXEngine.Library\SlimDXEngine.Library.csproj", "{75E19CB4-B909-4175-B283-80513D83EE0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E3C5796E-C23D-47E3-83F8-66B492699F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C8C5080-55EB-4250-BF2C-8C690695B44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C5080-55EB-4250-BF2C-8C690695B44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C5080-55EB-4250-BF2C-8C690695B44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8C5080-55EB-4250-BF2C-8C690695B44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E19CB4-B909-4175-B283-80513D83EE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E19CB4-B909-4175-B283-80513D83EE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E19CB4-B909-4175-B283-80513D83EE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E19CB4-B909-4175-B283-80513D83EE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
