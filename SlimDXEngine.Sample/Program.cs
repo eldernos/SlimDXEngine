@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SlimDXEngine.Library;
 
 namespace SlimDXEngine.Sample
 {
@@ -14,9 +15,7 @@ namespace SlimDXEngine.Sample
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Test());
+            Game.Instance.Run();
         }
     }
 }
