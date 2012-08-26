@@ -59,22 +59,11 @@ namespace SlimDXEngine.Library
             debug = new dlgDebug();
 
 
+            Ellipse e = new Ellipse();
+            e.Scale = new Vector3(20, 10, 1);
+            e.RotationVelocity = new Vector3(0, 0, 1);
+            ObjectManager.AddPositionedObject(e);
 
-            Triangle t = new Triangle();
-            t.Position = new Vector3(2, 0, 5);
-            t.Scale = new Vector3(5, 5, 5);
-            ObjectManager.AddPositionedObject(t);
-
-            Triangle t2 = new Triangle();
-            t2.Position = new Vector3(-2, 0, -5);
-            ObjectManager.AddPositionedObject(t2);
-
-            Triangle t3 = new Triangle();
-            t3.Position = new Vector3(0, 0, 0);
-            t3.Scale = new Vector3(2, 2, 2);
-            ObjectManager.AddPositionedObject(t3);
-
-            ObjectManager.Camera.Acceleration += new Vector3(0, 0, .1f);
         }
         #endregion
         #region Factories
